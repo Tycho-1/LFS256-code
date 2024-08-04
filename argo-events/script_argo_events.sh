@@ -1,3 +1,7 @@
+kubectl create ns argo-events
+
+echo starting..
+
 
 kubectl apply -f \
 https://raw.githubusercontent.com/argoproj/argo-events/stable/manifests/install.yaml

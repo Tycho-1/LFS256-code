@@ -1,3 +1,5 @@
+kubectl create ns argo-workflows
+
 kubectl create rolebinding default-admin --clusterrole=admin \
 --serviceaccount=argo:default -n argo
 
